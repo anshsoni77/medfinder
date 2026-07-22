@@ -1,21 +1,36 @@
-🏥 MedFinder
+# 🏥 MedFinder
 
-Find medicines at nearby shops — instantly.
+**Find medicines at nearby shops — instantly.**
 
-🔗 Live Demo → https://medfinder-ivory.vercel.app/
+🌐 **Live Demo:** https://medfinder-ivory.vercel.app/
 
-MedFinder is a full-stack MERN web app that lets patients search for any medicine and instantly see which nearby medical shops have it in stock, at what price, and in what quantity — no more calling pharmacies one by one.
+## 📖 About
 
-Tech Stack
-Frontend — React 18 + Vite, React Router, Axios
-Backend — Node.js, Express.js
-Database — MongoDB Atlas (Mongoose)
-Auth — JWT + bcrypt
-Deployed on — Vercel (frontend) + Render (backend)
+MedFinder is a full-stack **MERN** web application that helps patients search for medicines and instantly discover nearby pharmacies that have them in stock. Users can compare prices, check available quantities, and avoid the hassle of calling multiple pharmacies.
 
-Features
-Medicine search with MongoDB full-text indexing
-GPS-based nearby shop results using geospatial queries
-Price and stock comparison across multiple shops
-JWT authentication with Patient and Shop Owner roles
-Fully responsive UI
+---
+
+## 🚀 Tech Stack
+
+- **Frontend:** React 18, Vite, React Router, Axios
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB Atlas (Mongoose)
+- **Authentication:** JWT, bcrypt
+- **Deployment:** Vercel (Frontend), Render (Backend)
+
+---
+
+## ✨ Features
+
+- 🔍 Medicine search using MongoDB full-text indexing
+- 📍 GPS-based nearby pharmacy search with geospatial queries
+- 💰 Compare medicine prices across multiple shops
+- 📦 View real-time stock availability and quantity
+- 🔐 Secure JWT authentication with **Patient** and **Shop Owner** roles
+- 📱 Fully responsive user interface
+
+---
+
+## 🎯 Purpose
+
+MedFinder simplifies the process of finding medicines by connecting patients with nearby pharmacies, enabling faster access to medicines while saving time and effort.
